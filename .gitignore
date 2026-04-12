@@ -1,0 +1,27 @@
+# 依赖包（核心必加）
+node_modules/
+
+# 编译产物
+dist/
+*.js
+*.js.map
+
+# 系统与编辑器文件
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 日志与缓存
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# 环境配置文件（涉及后端密钥，绝对不能上传）
+.env
+.env.local
