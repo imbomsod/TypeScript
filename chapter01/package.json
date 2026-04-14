@@ -2,11 +2,9 @@
   "name": "ts-basis-ch01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start": "webpack server --open"
+    "build": "webpack --mode production",
+    "start": "webpack server --open --mode development"
   },
   "repository": {
     "type": "git",

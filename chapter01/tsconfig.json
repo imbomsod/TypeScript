@@ -6,11 +6,15 @@
     "outDir": "./dist",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
+    "module": "ESNext",
+    "target": "ES2015",
     "types": [],
+    "moduleResolution": "bundler", // 告诉 TS：模块解析交给 Webpack 这种打包工具
     // For nodejs:
-    // "lib": ["esnext"],
+    "lib": [
+      "ESNext",
+      "DOM"
+    ], // 必须包含 DOM，否则无法在 TS 里写 window/document
     // "types": ["node"],
     // and npm install -D @types/node
     // Other Outputs
