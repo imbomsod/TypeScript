@@ -19,10 +19,18 @@
     run() {
       console.log(`${this.name}在跑`)
     }
+
+    sayHello() {
+      console.log('汪汪汪汪！')
+
+    }
   }
 
   class Cat extends animal {
+    sayHello() {
+      console.log('喵喵喵喵！')
 
+    }
   }
 
 
